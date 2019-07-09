@@ -1,0 +1,56 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: black;
+  /*height: 200px;*/
+
+}
+
+.flex-container > div {
+  background-image: url("Next1.png");
+  background-position: cover;
+  background-size: 100% 100% ;
+  background-color: black;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: center;
+}
