@@ -59,7 +59,7 @@ li a:hover {
 	height: 700px;
 	background-image: url("buger.jpg");
 	background-position: center;
-  background-size: 100% 80%;
+  background-size: 100% 0%;
   background-color: black;
   background-repeat: no-repeat;
 }
@@ -110,6 +110,9 @@ li a:hover {
   background-repeat: no-repeat;
 
 }
+#about-title{
+  text-align: center;
+}
 #about-wrapper{
   width: 100%;
   height: 700px;
@@ -119,6 +122,17 @@ li a:hover {
   background-color: black;
   background-repeat: no-repeat;
 
+}
+#store-image{
+  width: 300px;
+  height: 300px;
+  background-image: url("aboutus.jpeg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-left: 40%;
 }
 .footer {
    position: fixed;
