@@ -59,7 +59,7 @@ li a:hover {
 	height: 700px;
 	background-image: url("buger.jpg");
 	background-position: center;
-  background-size: 100% 0%;
+  background-size: 100% 100%;
   background-color: black;
   background-repeat: no-repeat;
 }
@@ -115,24 +115,71 @@ li a:hover {
 }
 #about-wrapper{
   width: 100%;
-  height: 700px;
+  height: 1000px;
+  min-height: 700px;
+  max-height: 100%;
   background-image: url("nextlevelbackground.jpg");
   background-position: center;
   background-size: 100% 100%;
   background-color: black;
   background-repeat: no-repeat;
+  display: flex;
+  background-color: black;
+  /*height: 200px;*/
+  justify-content: center;
+  flex-direction: column;
 
 }
+#about-wrapper > store-image {
+  background-image: url("Next1.png");
+  background-position: cover;
+  background-size: 100% 100% ;
+  background-color: black;
+  background-repeat: no-repeat;
+  margin: 1px;
+  /*margin-left: 40%;*/
+  /*adding: 20px;*/
+  font-size: 30px;
+  width: 200px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
 #store-image{
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-image: url("aboutus.jpeg");
   background-position: center;
   background-size: 100% 100%;
   background-color: black;
   background-repeat: no-repeat;
   text-align: center;
-  margin-left: 40%;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+#aboutus{
+  width: 500px;
+  height: 500px;
+  border-right: 2px 2px solid white;
+  border-left: 2px 2px solid white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  background-color: black;
+  /*height: 200px;*/
+  justify-content: center;
+  margin-left: 35%;
+  color: white;
+
+
+}
+
+
 }
 .footer {
    position: fixed;
