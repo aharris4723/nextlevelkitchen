@@ -184,16 +184,26 @@ li a:hover {
 .contact-wrapper{
   display: flex;
   align-content: stretch;
+  justify-content: center;
 
 }
 .contact-wrapper div{
   border: 5px black solid;
   padding: 10px;
+  justify-content: center;
+  
+
 
 }
 .box-1{
   flex: 3;
   height: 500px;
+  background-image: url("nextlevelbackground.jpg");
+  background-position: cover;
+  background-size: 100% 100% ;
+  background-color: black;
+  background-repeat: no-repeat;
+
 
 }
 #contactus{
@@ -211,12 +221,62 @@ li a:hover {
   height: 60%;
 
 }
+#phonenumber{
+  font-size: 30px;
+  color: white;
+  margin-top: 5%;
+}
 .box-2{
   flex: 1;
+  background-color: black;
+}
+#icons{
+  margin-top: 80%;
 }
 .box-3{
   flex: 1;
-  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+
+}
+#find-us{
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+#grubhub{
+  background-image: url("grubhub.jpg");
+  background-position: center;
+  background-size: 100%;
+  /*background-color: black;*/
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 25%;
+
+
+
+}
+#doordash{
+  background-image: url("doordash.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 25%;
+
+}
+#ubereats{
+  background-image: url("ubereats.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 25%;
+
+
 }
 .box-4{
   flex: 1;
