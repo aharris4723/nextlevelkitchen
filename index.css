@@ -3,6 +3,7 @@
 	margin: 0px;
 }
 body{
+  background-color: black;
 	
 }
 h1{
@@ -140,19 +141,17 @@ li a:hover {
   background-size: 100% 100% ;
   background-color: black;
   background-repeat: no-repeat;
-  margin: 1px;
-  /*margin-left: 40%;*/
-  /*adding: 20px;*/
+  /*margin: 1px;*/
   font-size: 30px;
   width: 200px;
-  height: 250px;
+  height: 500px;
   justify-content: center;
   align-items: center;
 }
 
 #store-image{
   width: 500px;
-  height: 500px;
+  height: 550px;
   background-image: url("aboutus.jpeg");
   background-position: center;
   background-size: 100% 100%;
@@ -160,12 +159,12 @@ li a:hover {
   background-repeat: no-repeat;
   text-align: center;
   justify-content: center;
-  /*margin-left: 35%;*/
+ 
 }
 
 #aboutus{
   width: 500px;
-  height: 500px;
+  height: 512px;
   border-right: 2px 2px solid white;
   border-left: 2px 2px solid white;
   background-position: center;
@@ -175,15 +174,15 @@ li a:hover {
   text-align: center;
   display: flex;
   background-color: black;
-  /*height: 200px;*/
   justify-content: center;
- /* margin-left: 35%;*/
   color: white;
+  padding:1%;
 
 
 }
 #about-text{
   padding: 10%;
+  
 }
 .contact-wrapper{
   display: flex;
@@ -193,7 +192,7 @@ li a:hover {
 }
 .contact-wrapper div{
   border: 5px black solid;
-  padding: 10px;
+  padding: 15px;
   justify-content: center;
   
 
@@ -204,7 +203,7 @@ li a:hover {
   height: 500px;
   background-image: url("nextlevelbackground.jpg");
   background-position: cover;
-  background-size: 100% 100% ;
+  background-size: 150% 150% ;
   background-color: black;
   background-repeat: no-repeat;
 
@@ -274,11 +273,12 @@ li a:hover {
 #ubereats{
   background-image: url("ubereats.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-color: black;
   background-repeat: no-repeat;
-  width: 95%;
+  width: 98%;
   height: 25%;
+  padding: 1%;
 
 
 }
@@ -303,6 +303,7 @@ li a:hover {
   flex-direction: row;
   align-content: stretch;
   height: 50px;
+  color: red;
 
 
 }
