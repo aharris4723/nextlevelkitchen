@@ -288,32 +288,38 @@ li a:hover {
 }
 
 
-}
+
 .footer {
 
-   /*position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: gray;
-   color: white;
-   text-align: center;*/
-   display: flex;
-   align-content: stretch;
-   justify-content: center;
-   border: 5px black solid;
-   align-items:flex-end;
+  display:flex;
+   
+
 }
 .footer div{
-  border: 5px black solid;
+  border: 1px black solid;
   padding: 10px;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  height: 50px;
+
 
 }
-.address-footer{
-  justify-content: center;
-  flex: 1;
-  flex-direction:column;
-  text-align: center;
 
+.foot-1{
+  flex: 1;
+
+
+}
+.foot-2{
+  flex: 1;
+
+}
+.foot-3{
+  flex: 1;
+
+}
+.foot-4{
+  flex: 1;
 }
